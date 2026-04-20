@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "section": "EU_AI_ACT_ART_14",
+      "title": "Human Oversight for High-Risk AI",
+      "text": "High-risk systems must enable effective human oversight and intervention before impactful actions are executed."
+    },
+    {
+      "section": "EU_AI_ACT_ART_9",
+      "title": "Risk Management System",
+      "text": "Providers must implement continuous risk identification, analysis, evaluation, and mitigation throughout operation."
+    },
+    {
+      "section": "EHDS_PRINCIPLE_INTEROP",
+      "title": "EHDS Interoperability Principle",
+      "text": "Health data exchanges should follow secure, interoperable, and purpose-limited transmission practices."
+    },
+    {
+      "section": "RURAL_CARE_GUIDE_2026_1",
+      "title": "Remote Triage and Referral",
+      "text": "Severe respiratory distress, chest pain, neurological deficits, or persistent high fever should trigger urgent escalation pathways."
+    },
+    {
+      "section": "RURAL_CARE_GUIDE_2026_2",
+      "title": "Access Barriers and Transportation",
+      "text": "When transportation barriers are present, care coordination should prioritize mobile clinics, community transport, and tele-support options."
+    }
+  ]
+}

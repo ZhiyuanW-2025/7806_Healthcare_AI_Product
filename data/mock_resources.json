@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Village Pharmacy A",
+    "type": "pharmacy",
+    "location": [45.133, 7.471],
+    "status": "Open",
+    "stock": "Flu medicine available",
+    "phone": "+39-011-410-2201"
+  },
+  {
+    "id": 2,
+    "name": "Mobile Clinic North Route",
+    "type": "mobile_clinic",
+    "location": [45.184, 7.498],
+    "status": "On Route",
+    "stock": "Primary care and diagnostics",
+    "phone": "+39-011-410-2299"
+  },
+  {
+    "id": 3,
+    "name": "Rural General Hospital",
+    "type": "hospital",
+    "location": [45.223, 7.640],
+    "status": "Open",
+    "stock": "Emergency department active",
+    "phone": "+39-011-410-2300"
+  },
+  {
+    "id": 4,
+    "name": "Community Health Point C",
+    "type": "clinic",
+    "location": [45.071, 7.598],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+39-011-410-2335"
+  },
+  {
+    "id": 5,
+    "name": "Volunteer Transport Hub",
+    "type": "transport",
+    "location": [45.115, 7.443],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+39-011-410-2360"
+  }
+]
