@@ -1,47 +1,3802 @@
 [
   {
     "id": 1,
-    "name": "Village Pharmacy A",
+    "name": "Community Pharmacy 001",
     "type": "pharmacy",
-    "location": [45.133, 7.471],
+    "location": [
+      45.0549,
+      7.6769
+    ],
     "status": "Open",
-    "stock": "Flu medicine available",
-    "phone": "+39-011-410-2201"
+    "stock": "Limited antibiotics stock",
+    "phone": "+39-200001",
+    "address": "113 Market St, Centro, Turin, Metropolitan City of Turin, Piedmont, 10037, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "10037"
   },
   {
     "id": 2,
-    "name": "Mobile Clinic North Route",
-    "type": "mobile_clinic",
-    "location": [45.184, 7.498],
-    "status": "On Route",
-    "stock": "Primary care and diagnostics",
-    "phone": "+39-011-410-2299"
+    "name": "Family Health Clinic 002",
+    "type": "clinic",
+    "location": [
+      45.4642,
+      9.202
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+39-200002",
+    "address": "126 River Rd, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 10074, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "10074"
   },
   {
     "id": 3,
-    "name": "Rural General Hospital",
+    "name": "Regional General Hospital 003",
     "type": "hospital",
-    "location": [45.223, 7.640],
+    "location": [
+      44.5103,
+      11.3106
+    ],
     "status": "Open",
-    "stock": "Emergency department active",
-    "phone": "+39-011-410-2300"
+    "stock": "24/7 urgent care",
+    "phone": "+39-200003",
+    "address": "139 Health Ave, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 10111, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "10111"
   },
   {
     "id": 4,
-    "name": "Community Health Point C",
-    "type": "clinic",
-    "location": [45.071, 7.598],
-    "status": "Open",
-    "stock": "Nursing and chronic care support",
-    "phone": "+39-011-410-2335"
+    "name": "Mobile Care Unit 004",
+    "type": "mobile_clinic",
+    "location": [
+      41.9336,
+      12.4864
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+39-200004",
+    "address": "152 Oak Lane, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 10148, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "10148"
   },
   {
     "id": 5,
-    "name": "Volunteer Transport Hub",
+    "name": "Volunteer Medical Transport 005",
     "type": "transport",
-    "location": [45.115, 7.443],
+    "location": [
+      40.8342,
+      14.2801
+    ],
     "status": "Available",
     "stock": "Volunteer driver network",
-    "phone": "+39-011-410-2360"
+    "phone": "+39-200005",
+    "address": "165 Maple Rd, Chiaia, Naples, Metropolitan City of Naples, Campania, 10185, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "10185"
+  },
+  {
+    "id": 6,
+    "name": "Community Pharmacy 006",
+    "type": "pharmacy",
+    "location": [
+      38.1135,
+      13.3295
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200006",
+    "address": "178 Liberty St, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 10222, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "10222"
+  },
+  {
+    "id": 7,
+    "name": "Family Health Clinic 007",
+    "type": "clinic",
+    "location": [
+      40.43,
+      -3.7138
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+34-200007",
+    "address": "191 Central Ave, Centro, Madrid, Madrid, Community of Madrid, 10259, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "10259"
+  },
+  {
+    "id": 8,
+    "name": "Regional General Hospital 008",
+    "type": "hospital",
+    "location": [
+      41.4137,
+      2.1854
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+34-200008",
+    "address": "204 Main St, Eixample, Barcelona, Barcelona, Catalonia, 10296, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "10296"
+  },
+  {
+    "id": 9,
+    "name": "Mobile Care Unit 009",
+    "type": "mobile_clinic",
+    "location": [
+      39.4501,
+      -0.4083
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+34-200009",
+    "address": "217 Market St, Ciutat Vella, Valencia, Valencia, Valencian Community, 10333, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "10333"
+  },
+  {
+    "id": 10,
+    "name": "Volunteer Medical Transport 010",
+    "type": "transport",
+    "location": [
+      37.3847,
+      -5.9945
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+34-200010",
+    "address": "230 River Rd, Casco Antiguo, Seville, Seville, Andalusia, 10370, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "10370"
+  },
+  {
+    "id": 11,
+    "name": "Community Pharmacy 011",
+    "type": "pharmacy",
+    "location": [
+      41.6598,
+      -0.8771
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+34-200011",
+    "address": "243 Health Ave, Centro, Zaragoza, Zaragoza, Aragon, 10407, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "10407"
+  },
+  {
+    "id": 12,
+    "name": "Family Health Clinic 012",
+    "type": "clinic",
+    "location": [
+      48.883,
+      2.3202
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+33-200012",
+    "address": "256 Oak Lane, 1st arrondissement, Paris, Paris, Ile-de-France, 10444, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "10444"
+  },
+  {
+    "id": 13,
+    "name": "Regional General Hospital 013",
+    "type": "hospital",
+    "location": [
+      45.742,
+      4.8257
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+33-200013",
+    "address": "269 Maple Rd, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 10481, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "10481"
+  },
+  {
+    "id": 14,
+    "name": "Mobile Care Unit 014",
+    "type": "mobile_clinic",
+    "location": [
+      43.2899,
+      5.3818
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+33-200014",
+    "address": "282 Liberty St, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 10518, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "10518"
+  },
+  {
+    "id": 15,
+    "name": "Volunteer Medical Transport 015",
+    "type": "transport",
+    "location": [
+      50.638,
+      3.0253
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+33-200015",
+    "address": "295 Central Ave, Centre, Lille, Nord, Hauts-de-France, 10555, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "10555"
+  },
+  {
+    "id": 16,
+    "name": "Community Pharmacy 016",
+    "type": "pharmacy",
+    "location": [
+      52.5442,
+      13.395
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+49-200016",
+    "address": "308 Main St, Mitte, Berlin, Berlin, Berlin, 10592, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "10592"
+  },
+  {
+    "id": 17,
+    "name": "Family Health Clinic 017",
+    "type": "clinic",
+    "location": [
+      48.1109,
+      11.594
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+49-200017",
+    "address": "321 Market St, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 10629, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "10629"
+  },
+  {
+    "id": 18,
+    "name": "Regional General Hospital 018",
+    "type": "hospital",
+    "location": [
+      53.5423,
+      9.9617
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+49-200018",
+    "address": "334 River Rd, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 10666, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "10666"
+  },
+  {
+    "id": 19,
+    "name": "Mobile Care Unit 019",
+    "type": "mobile_clinic",
+    "location": [
+      50.9441,
+      6.9503
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+49-200019",
+    "address": "347 Health Ave, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 10703, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "10703"
+  },
+  {
+    "id": 20,
+    "name": "Volunteer Medical Transport 020",
+    "type": "transport",
+    "location": [
+      52.3896,
+      4.9161
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+31-200020",
+    "address": "360 Oak Lane, Centrum, Amsterdam, Amsterdam, North Holland, 10740, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "10740"
+  },
+  {
+    "id": 21,
+    "name": "Community Pharmacy 021",
+    "type": "pharmacy",
+    "location": [
+      51.898,
+      4.4457
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+31-200021",
+    "address": "373 Maple Rd, Stadscentrum, Rotterdam, Rotterdam, South Holland, 10777, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "10777"
+  },
+  {
+    "id": 22,
+    "name": "Family Health Clinic 022",
+    "type": "clinic",
+    "location": [
+      50.8393,
+      4.3417
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+32-200022",
+    "address": "386 Liberty St, Pentagon, Brussels, Brussels, Brussels-Capital Region, 10814, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "10814"
+  },
+  {
+    "id": 23,
+    "name": "Regional General Hospital 023",
+    "type": "hospital",
+    "location": [
+      51.2238,
+      4.4145
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+32-200023",
+    "address": "399 Central Ave, Historisch Centrum, Antwerp, Antwerp, Flanders, 10851, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "10851"
+  },
+  {
+    "id": 24,
+    "name": "Mobile Care Unit 024",
+    "type": "mobile_clinic",
+    "location": [
+      38.7421,
+      -9.1713
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+351-200024",
+    "address": "412 Main St, Baixa, Lisbon, Lisbon, Lisbon, 10888, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "10888"
+  },
+  {
+    "id": 25,
+    "name": "Volunteer Medical Transport 025",
+    "type": "transport",
+    "location": [
+      41.1293,
+      -8.6391
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+351-200025",
+    "address": "425 Market St, Cedofeita, Porto, Porto, Porto, 10925, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "10925"
+  },
+  {
+    "id": 26,
+    "name": "Community Pharmacy 026",
+    "type": "pharmacy",
+    "location": [
+      52.2165,
+      21.0242
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+48-200026",
+    "address": "438 River Rd, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 10962, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "10962"
+  },
+  {
+    "id": 27,
+    "name": "Family Health Clinic 027",
+    "type": "clinic",
+    "location": [
+      50.0669,
+      19.913
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+48-200027",
+    "address": "451 Health Ave, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 10999, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "10999"
+  },
+  {
+    "id": 28,
+    "name": "Regional General Hospital 028",
+    "type": "hospital",
+    "location": [
+      48.2258,
+      16.3638
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+43-200028",
+    "address": "464 Oak Lane, Innere Stadt, Vienna, Vienna, Vienna, 11036, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "11036"
+  },
+  {
+    "id": 29,
+    "name": "Mobile Care Unit 029",
+    "type": "mobile_clinic",
+    "location": [
+      50.0447,
+      14.4498
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+420-200029",
+    "address": "477 Maple Rd, Stare Mesto, Prague, Prague, Prague, 11073, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "11073"
+  },
+  {
+    "id": 30,
+    "name": "Volunteer Medical Transport 030",
+    "type": "transport",
+    "location": [
+      53.3344,
+      -6.2923
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+353-200030",
+    "address": "490 Liberty St, Dublin 2, Dublin, Dublin, Leinster, 11110, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "11110"
+  },
+  {
+    "id": 31,
+    "name": "Community Pharmacy 031",
+    "type": "pharmacy",
+    "location": [
+      37.9838,
+      23.7175
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+30-200031",
+    "address": "503 Central Ave, Syntagma, Athens, Central Athens, Attica, 11147, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "11147"
+  },
+  {
+    "id": 32,
+    "name": "Family Health Clinic 032",
+    "type": "clinic",
+    "location": [
+      45.0857,
+      7.6989
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+39-200032",
+    "address": "516 Main St, Centro, Turin, Metropolitan City of Turin, Piedmont, 11184, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "11184"
+  },
+  {
+    "id": 33,
+    "name": "Regional General Hospital 033",
+    "type": "hospital",
+    "location": [
+      45.495,
+      9.158
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+39-200033",
+    "address": "529 Market St, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 11221, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "11221"
+  },
+  {
+    "id": 34,
+    "name": "Mobile Care Unit 034",
+    "type": "mobile_clinic",
+    "location": [
+      44.4773,
+      11.3326
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+39-200034",
+    "address": "542 River Rd, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 11258, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "11258"
+  },
+  {
+    "id": 35,
+    "name": "Volunteer Medical Transport 035",
+    "type": "transport",
+    "location": [
+      41.9006,
+      12.5084
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+39-200035",
+    "address": "555 Health Ave, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 11295, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "11295"
+  },
+  {
+    "id": 36,
+    "name": "Community Pharmacy 036",
+    "type": "pharmacy",
+    "location": [
+      40.865,
+      14.2361
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200036",
+    "address": "568 Oak Lane, Chiaia, Naples, Metropolitan City of Naples, Campania, 11332, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "11332"
+  },
+  {
+    "id": 37,
+    "name": "Family Health Clinic 037",
+    "type": "clinic",
+    "location": [
+      38.1443,
+      13.3515
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200037",
+    "address": "581 Maple Rd, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 11369, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "11369"
+  },
+  {
+    "id": 38,
+    "name": "Regional General Hospital 038",
+    "type": "hospital",
+    "location": [
+      40.397,
+      -3.6918
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+34-200038",
+    "address": "594 Liberty St, Centro, Madrid, Madrid, Community of Madrid, 11406, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "11406"
+  },
+  {
+    "id": 39,
+    "name": "Mobile Care Unit 039",
+    "type": "mobile_clinic",
+    "location": [
+      41.3807,
+      2.1414
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+34-200039",
+    "address": "607 Central Ave, Eixample, Barcelona, Barcelona, Catalonia, 11443, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "11443"
+  },
+  {
+    "id": 40,
+    "name": "Volunteer Medical Transport 040",
+    "type": "transport",
+    "location": [
+      39.4809,
+      -0.3863
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+34-200040",
+    "address": "620 Main St, Ciutat Vella, Valencia, Valencia, Valencian Community, 11480, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "11480"
+  },
+  {
+    "id": 41,
+    "name": "Community Pharmacy 041",
+    "type": "pharmacy",
+    "location": [
+      37.4155,
+      -5.9725
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+34-200041",
+    "address": "633 Market St, Casco Antiguo, Seville, Seville, Andalusia, 11517, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "11517"
+  },
+  {
+    "id": 42,
+    "name": "Family Health Clinic 042",
+    "type": "clinic",
+    "location": [
+      41.6268,
+      -0.9211
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+34-200042",
+    "address": "646 River Rd, Centro, Zaragoza, Zaragoza, Aragon, 11554, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "11554"
+  },
+  {
+    "id": 43,
+    "name": "Regional General Hospital 043",
+    "type": "hospital",
+    "location": [
+      48.85,
+      2.3422
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+33-200043",
+    "address": "659 Health Ave, 1st arrondissement, Paris, Paris, Ile-de-France, 11591, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "11591"
+  },
+  {
+    "id": 44,
+    "name": "Mobile Care Unit 044",
+    "type": "mobile_clinic",
+    "location": [
+      45.7728,
+      4.8477
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+33-200044",
+    "address": "672 Oak Lane, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 11628, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "11628"
+  },
+  {
+    "id": 45,
+    "name": "Volunteer Medical Transport 045",
+    "type": "transport",
+    "location": [
+      43.3207,
+      5.3378
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+33-200045",
+    "address": "685 Maple Rd, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 11665, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "11665"
+  },
+  {
+    "id": 46,
+    "name": "Community Pharmacy 046",
+    "type": "pharmacy",
+    "location": [
+      50.605,
+      3.0473
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+33-200046",
+    "address": "698 Liberty St, Centre, Lille, Nord, Hauts-de-France, 11702, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "11702"
+  },
+  {
+    "id": 47,
+    "name": "Family Health Clinic 047",
+    "type": "clinic",
+    "location": [
+      52.5112,
+      13.417
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+49-200047",
+    "address": "711 Central Ave, Mitte, Berlin, Berlin, Berlin, 11739, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "11739"
+  },
+  {
+    "id": 48,
+    "name": "Regional General Hospital 048",
+    "type": "hospital",
+    "location": [
+      48.1417,
+      11.55
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+49-200048",
+    "address": "724 Main St, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 11776, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "11776"
+  },
+  {
+    "id": 49,
+    "name": "Mobile Care Unit 049",
+    "type": "mobile_clinic",
+    "location": [
+      53.5731,
+      9.9837
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+49-200049",
+    "address": "737 Market St, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 11813, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "11813"
+  },
+  {
+    "id": 50,
+    "name": "Volunteer Medical Transport 050",
+    "type": "transport",
+    "location": [
+      50.9111,
+      6.9723
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+49-200050",
+    "address": "750 River Rd, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 11850, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "11850"
+  },
+  {
+    "id": 51,
+    "name": "Community Pharmacy 051",
+    "type": "pharmacy",
+    "location": [
+      52.3566,
+      4.8721
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+31-200051",
+    "address": "763 Health Ave, Centrum, Amsterdam, Amsterdam, North Holland, 11887, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "11887"
+  },
+  {
+    "id": 52,
+    "name": "Family Health Clinic 052",
+    "type": "clinic",
+    "location": [
+      51.9288,
+      4.4677
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+31-200052",
+    "address": "776 Oak Lane, Stadscentrum, Rotterdam, Rotterdam, South Holland, 11924, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "11924"
+  },
+  {
+    "id": 53,
+    "name": "Regional General Hospital 053",
+    "type": "hospital",
+    "location": [
+      50.8701,
+      4.3637
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+32-200053",
+    "address": "789 Maple Rd, Pentagon, Brussels, Brussels, Brussels-Capital Region, 11961, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "11961"
+  },
+  {
+    "id": 54,
+    "name": "Mobile Care Unit 054",
+    "type": "mobile_clinic",
+    "location": [
+      51.1908,
+      4.3705
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+32-200054",
+    "address": "802 Liberty St, Historisch Centrum, Antwerp, Antwerp, Flanders, 11998, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "11998"
+  },
+  {
+    "id": 55,
+    "name": "Volunteer Medical Transport 055",
+    "type": "transport",
+    "location": [
+      38.7091,
+      -9.1493
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+351-200055",
+    "address": "815 Central Ave, Baixa, Lisbon, Lisbon, Lisbon, 12035, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "12035"
+  },
+  {
+    "id": 56,
+    "name": "Community Pharmacy 056",
+    "type": "pharmacy",
+    "location": [
+      41.1601,
+      -8.6171
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+351-200056",
+    "address": "828 Main St, Cedofeita, Porto, Porto, Porto, 12072, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "12072"
+  },
+  {
+    "id": 57,
+    "name": "Family Health Clinic 057",
+    "type": "clinic",
+    "location": [
+      52.2473,
+      20.9802
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+48-200057",
+    "address": "841 Market St, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 12109, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "12109"
+  },
+  {
+    "id": 58,
+    "name": "Regional General Hospital 058",
+    "type": "hospital",
+    "location": [
+      50.0339,
+      19.935
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+48-200058",
+    "address": "854 River Rd, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 12146, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "12146"
+  },
+  {
+    "id": 59,
+    "name": "Mobile Care Unit 059",
+    "type": "mobile_clinic",
+    "location": [
+      48.1928,
+      16.3858
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+43-200059",
+    "address": "867 Health Ave, Innere Stadt, Vienna, Vienna, Vienna, 12183, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "12183"
+  },
+  {
+    "id": 60,
+    "name": "Volunteer Medical Transport 060",
+    "type": "transport",
+    "location": [
+      50.0755,
+      14.4058
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+420-200060",
+    "address": "880 Oak Lane, Stare Mesto, Prague, Prague, Prague, 12220, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "12220"
+  },
+  {
+    "id": 61,
+    "name": "Community Pharmacy 061",
+    "type": "pharmacy",
+    "location": [
+      53.3652,
+      -6.2703
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+353-200061",
+    "address": "893 Maple Rd, Dublin 2, Dublin, Dublin, Leinster, 12257, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "12257"
+  },
+  {
+    "id": 62,
+    "name": "Family Health Clinic 062",
+    "type": "clinic",
+    "location": [
+      38.0146,
+      23.7395
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+30-200062",
+    "address": "106 Liberty St, Syntagma, Athens, Central Athens, Attica, 12294, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "12294"
+  },
+  {
+    "id": 63,
+    "name": "Regional General Hospital 063",
+    "type": "hospital",
+    "location": [
+      45.0527,
+      7.6549
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+39-200063",
+    "address": "119 Central Ave, Centro, Turin, Metropolitan City of Turin, Piedmont, 12331, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "12331"
+  },
+  {
+    "id": 64,
+    "name": "Mobile Care Unit 064",
+    "type": "mobile_clinic",
+    "location": [
+      45.462,
+      9.18
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+39-200064",
+    "address": "132 Main St, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 12368, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "12368"
+  },
+  {
+    "id": 65,
+    "name": "Volunteer Medical Transport 065",
+    "type": "transport",
+    "location": [
+      44.5081,
+      11.3546
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+39-200065",
+    "address": "145 Market St, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 12405, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "12405"
+  },
+  {
+    "id": 66,
+    "name": "Community Pharmacy 066",
+    "type": "pharmacy",
+    "location": [
+      41.9314,
+      12.4644
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200066",
+    "address": "158 River Rd, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 12442, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "12442"
+  },
+  {
+    "id": 67,
+    "name": "Family Health Clinic 067",
+    "type": "clinic",
+    "location": [
+      40.832,
+      14.2581
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200067",
+    "address": "171 Health Ave, Chiaia, Naples, Metropolitan City of Naples, Campania, 12479, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "12479"
+  },
+  {
+    "id": 68,
+    "name": "Regional General Hospital 068",
+    "type": "hospital",
+    "location": [
+      38.1113,
+      13.3735
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+39-200068",
+    "address": "184 Oak Lane, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 12516, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "12516"
+  },
+  {
+    "id": 69,
+    "name": "Mobile Care Unit 069",
+    "type": "mobile_clinic",
+    "location": [
+      40.4278,
+      -3.7358
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+34-200069",
+    "address": "197 Maple Rd, Centro, Madrid, Madrid, Community of Madrid, 12553, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "12553"
+  },
+  {
+    "id": 70,
+    "name": "Volunteer Medical Transport 070",
+    "type": "transport",
+    "location": [
+      41.4115,
+      2.1634
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+34-200070",
+    "address": "210 Liberty St, Eixample, Barcelona, Barcelona, Catalonia, 12590, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "12590"
+  },
+  {
+    "id": 71,
+    "name": "Community Pharmacy 071",
+    "type": "pharmacy",
+    "location": [
+      39.4479,
+      -0.3643
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+34-200071",
+    "address": "223 Central Ave, Ciutat Vella, Valencia, Valencia, Valencian Community, 12627, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "12627"
+  },
+  {
+    "id": 72,
+    "name": "Family Health Clinic 072",
+    "type": "clinic",
+    "location": [
+      37.3825,
+      -6.0165
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+34-200072",
+    "address": "236 Main St, Casco Antiguo, Seville, Seville, Andalusia, 12664, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "12664"
+  },
+  {
+    "id": 73,
+    "name": "Regional General Hospital 073",
+    "type": "hospital",
+    "location": [
+      41.6576,
+      -0.8991
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+34-200073",
+    "address": "249 Market St, Centro, Zaragoza, Zaragoza, Aragon, 12701, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "12701"
+  },
+  {
+    "id": 74,
+    "name": "Mobile Care Unit 074",
+    "type": "mobile_clinic",
+    "location": [
+      48.8808,
+      2.3642
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+33-200074",
+    "address": "262 River Rd, 1st arrondissement, Paris, Paris, Ile-de-France, 12738, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "12738"
+  },
+  {
+    "id": 75,
+    "name": "Volunteer Medical Transport 075",
+    "type": "transport",
+    "location": [
+      45.7398,
+      4.8037
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+33-200075",
+    "address": "275 Health Ave, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 12775, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "12775"
+  },
+  {
+    "id": 76,
+    "name": "Community Pharmacy 076",
+    "type": "pharmacy",
+    "location": [
+      43.2877,
+      5.3598
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+33-200076",
+    "address": "288 Oak Lane, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 12812, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "12812"
+  },
+  {
+    "id": 77,
+    "name": "Family Health Clinic 077",
+    "type": "clinic",
+    "location": [
+      50.6358,
+      3.0693
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+33-200077",
+    "address": "301 Maple Rd, Centre, Lille, Nord, Hauts-de-France, 12849, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "12849"
+  },
+  {
+    "id": 78,
+    "name": "Regional General Hospital 078",
+    "type": "hospital",
+    "location": [
+      52.542,
+      13.373
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+49-200078",
+    "address": "314 Liberty St, Mitte, Berlin, Berlin, Berlin, 12886, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "12886"
+  },
+  {
+    "id": 79,
+    "name": "Mobile Care Unit 079",
+    "type": "mobile_clinic",
+    "location": [
+      48.1087,
+      11.572
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+49-200079",
+    "address": "327 Central Ave, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 12923, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "12923"
+  },
+  {
+    "id": 80,
+    "name": "Volunteer Medical Transport 080",
+    "type": "transport",
+    "location": [
+      53.5401,
+      10.0057
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+49-200080",
+    "address": "340 Main St, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 12960, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "12960"
+  },
+  {
+    "id": 81,
+    "name": "Community Pharmacy 081",
+    "type": "pharmacy",
+    "location": [
+      50.9419,
+      6.9283
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+49-200081",
+    "address": "353 Market St, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 12997, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "12997"
+  },
+  {
+    "id": 82,
+    "name": "Family Health Clinic 082",
+    "type": "clinic",
+    "location": [
+      52.3874,
+      4.8941
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+31-200082",
+    "address": "366 River Rd, Centrum, Amsterdam, Amsterdam, North Holland, 13034, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "13034"
+  },
+  {
+    "id": 83,
+    "name": "Regional General Hospital 083",
+    "type": "hospital",
+    "location": [
+      51.8958,
+      4.4897
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+31-200083",
+    "address": "379 Health Ave, Stadscentrum, Rotterdam, Rotterdam, South Holland, 13071, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "13071"
+  },
+  {
+    "id": 84,
+    "name": "Mobile Care Unit 084",
+    "type": "mobile_clinic",
+    "location": [
+      50.8371,
+      4.3197
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+32-200084",
+    "address": "392 Oak Lane, Pentagon, Brussels, Brussels, Brussels-Capital Region, 13108, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "13108"
+  },
+  {
+    "id": 85,
+    "name": "Volunteer Medical Transport 085",
+    "type": "transport",
+    "location": [
+      51.2216,
+      4.3925
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+32-200085",
+    "address": "405 Maple Rd, Historisch Centrum, Antwerp, Antwerp, Flanders, 13145, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "13145"
+  },
+  {
+    "id": 86,
+    "name": "Community Pharmacy 086",
+    "type": "pharmacy",
+    "location": [
+      38.7399,
+      -9.1273
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+351-200086",
+    "address": "418 Liberty St, Baixa, Lisbon, Lisbon, Lisbon, 13182, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "13182"
+  },
+  {
+    "id": 87,
+    "name": "Family Health Clinic 087",
+    "type": "clinic",
+    "location": [
+      41.1271,
+      -8.6611
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+351-200087",
+    "address": "431 Central Ave, Cedofeita, Porto, Porto, Porto, 13219, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "13219"
+  },
+  {
+    "id": 88,
+    "name": "Regional General Hospital 088",
+    "type": "hospital",
+    "location": [
+      52.2143,
+      21.0022
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+48-200088",
+    "address": "444 Main St, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 13256, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "13256"
+  },
+  {
+    "id": 89,
+    "name": "Mobile Care Unit 089",
+    "type": "mobile_clinic",
+    "location": [
+      50.0647,
+      19.957
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+48-200089",
+    "address": "457 Market St, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 13293, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "13293"
+  },
+  {
+    "id": 90,
+    "name": "Volunteer Medical Transport 090",
+    "type": "transport",
+    "location": [
+      48.2236,
+      16.3418
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+43-200090",
+    "address": "470 River Rd, Innere Stadt, Vienna, Vienna, Vienna, 13330, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "13330"
+  },
+  {
+    "id": 91,
+    "name": "Community Pharmacy 091",
+    "type": "pharmacy",
+    "location": [
+      50.1063,
+      14.4278
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+420-200091",
+    "address": "483 Health Ave, Stare Mesto, Prague, Prague, Prague, 13367, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "13367"
+  },
+  {
+    "id": 92,
+    "name": "Family Health Clinic 092",
+    "type": "clinic",
+    "location": [
+      53.3322,
+      -6.2483
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+353-200092",
+    "address": "496 Oak Lane, Dublin 2, Dublin, Dublin, Leinster, 13404, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "13404"
+  },
+  {
+    "id": 93,
+    "name": "Regional General Hospital 093",
+    "type": "hospital",
+    "location": [
+      37.9816,
+      23.6955
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+30-200093",
+    "address": "509 Maple Rd, Syntagma, Athens, Central Athens, Attica, 13441, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "13441"
+  },
+  {
+    "id": 94,
+    "name": "Mobile Care Unit 094",
+    "type": "mobile_clinic",
+    "location": [
+      45.0835,
+      7.6769
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+39-200094",
+    "address": "522 Liberty St, Centro, Turin, Metropolitan City of Turin, Piedmont, 13478, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "13478"
+  },
+  {
+    "id": 95,
+    "name": "Volunteer Medical Transport 095",
+    "type": "transport",
+    "location": [
+      45.4928,
+      9.202
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+39-200095",
+    "address": "535 Central Ave, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 13515, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "13515"
+  },
+  {
+    "id": 96,
+    "name": "Community Pharmacy 096",
+    "type": "pharmacy",
+    "location": [
+      44.4751,
+      11.3106
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200096",
+    "address": "548 Main St, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 13552, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "13552"
+  },
+  {
+    "id": 97,
+    "name": "Family Health Clinic 097",
+    "type": "clinic",
+    "location": [
+      41.8984,
+      12.4864
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200097",
+    "address": "561 Market St, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 13589, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "13589"
+  },
+  {
+    "id": 98,
+    "name": "Regional General Hospital 098",
+    "type": "hospital",
+    "location": [
+      40.8628,
+      14.2801
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+39-200098",
+    "address": "574 River Rd, Chiaia, Naples, Metropolitan City of Naples, Campania, 13626, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "13626"
+  },
+  {
+    "id": 99,
+    "name": "Mobile Care Unit 099",
+    "type": "mobile_clinic",
+    "location": [
+      38.1421,
+      13.3295
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+39-200099",
+    "address": "587 Health Ave, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 13663, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "13663"
+  },
+  {
+    "id": 100,
+    "name": "Volunteer Medical Transport 100",
+    "type": "transport",
+    "location": [
+      40.3948,
+      -3.7138
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+34-200100",
+    "address": "600 Oak Lane, Centro, Madrid, Madrid, Community of Madrid, 13700, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "13700"
+  },
+  {
+    "id": 101,
+    "name": "Community Pharmacy 101",
+    "type": "pharmacy",
+    "location": [
+      41.3785,
+      2.1854
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+34-200101",
+    "address": "613 Maple Rd, Eixample, Barcelona, Barcelona, Catalonia, 13737, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "13737"
+  },
+  {
+    "id": 102,
+    "name": "Family Health Clinic 102",
+    "type": "clinic",
+    "location": [
+      39.4787,
+      -0.4083
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+34-200102",
+    "address": "626 Liberty St, Ciutat Vella, Valencia, Valencia, Valencian Community, 13774, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "13774"
+  },
+  {
+    "id": 103,
+    "name": "Regional General Hospital 103",
+    "type": "hospital",
+    "location": [
+      37.4133,
+      -5.9945
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+34-200103",
+    "address": "639 Central Ave, Casco Antiguo, Seville, Seville, Andalusia, 13811, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "13811"
+  },
+  {
+    "id": 104,
+    "name": "Mobile Care Unit 104",
+    "type": "mobile_clinic",
+    "location": [
+      41.6246,
+      -0.8771
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+34-200104",
+    "address": "652 Main St, Centro, Zaragoza, Zaragoza, Aragon, 13848, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "13848"
+  },
+  {
+    "id": 105,
+    "name": "Volunteer Medical Transport 105",
+    "type": "transport",
+    "location": [
+      48.8478,
+      2.3202
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+33-200105",
+    "address": "665 Market St, 1st arrondissement, Paris, Paris, Ile-de-France, 13885, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "13885"
+  },
+  {
+    "id": 106,
+    "name": "Community Pharmacy 106",
+    "type": "pharmacy",
+    "location": [
+      45.7706,
+      4.8257
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+33-200106",
+    "address": "678 River Rd, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 13922, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "13922"
+  },
+  {
+    "id": 107,
+    "name": "Family Health Clinic 107",
+    "type": "clinic",
+    "location": [
+      43.3185,
+      5.3818
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+33-200107",
+    "address": "691 Health Ave, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 13959, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "13959"
+  },
+  {
+    "id": 108,
+    "name": "Regional General Hospital 108",
+    "type": "hospital",
+    "location": [
+      50.6028,
+      3.0253
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+33-200108",
+    "address": "704 Oak Lane, Centre, Lille, Nord, Hauts-de-France, 13996, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "13996"
+  },
+  {
+    "id": 109,
+    "name": "Mobile Care Unit 109",
+    "type": "mobile_clinic",
+    "location": [
+      52.509,
+      13.395
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+49-200109",
+    "address": "717 Maple Rd, Mitte, Berlin, Berlin, Berlin, 14033, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "14033"
+  },
+  {
+    "id": 110,
+    "name": "Volunteer Medical Transport 110",
+    "type": "transport",
+    "location": [
+      48.1395,
+      11.594
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+49-200110",
+    "address": "730 Liberty St, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 14070, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "14070"
+  },
+  {
+    "id": 111,
+    "name": "Community Pharmacy 111",
+    "type": "pharmacy",
+    "location": [
+      53.5709,
+      9.9617
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+49-200111",
+    "address": "743 Central Ave, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 14107, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "14107"
+  },
+  {
+    "id": 112,
+    "name": "Family Health Clinic 112",
+    "type": "clinic",
+    "location": [
+      50.9089,
+      6.9503
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+49-200112",
+    "address": "756 Main St, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 14144, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "14144"
+  },
+  {
+    "id": 113,
+    "name": "Regional General Hospital 113",
+    "type": "hospital",
+    "location": [
+      52.3544,
+      4.9161
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+31-200113",
+    "address": "769 Market St, Centrum, Amsterdam, Amsterdam, North Holland, 14181, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "14181"
+  },
+  {
+    "id": 114,
+    "name": "Mobile Care Unit 114",
+    "type": "mobile_clinic",
+    "location": [
+      51.9266,
+      4.4457
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+31-200114",
+    "address": "782 River Rd, Stadscentrum, Rotterdam, Rotterdam, South Holland, 14218, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "14218"
+  },
+  {
+    "id": 115,
+    "name": "Volunteer Medical Transport 115",
+    "type": "transport",
+    "location": [
+      50.8679,
+      4.3417
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+32-200115",
+    "address": "795 Health Ave, Pentagon, Brussels, Brussels, Brussels-Capital Region, 14255, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "14255"
+  },
+  {
+    "id": 116,
+    "name": "Community Pharmacy 116",
+    "type": "pharmacy",
+    "location": [
+      51.1886,
+      4.4145
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+32-200116",
+    "address": "808 Oak Lane, Historisch Centrum, Antwerp, Antwerp, Flanders, 14292, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "14292"
+  },
+  {
+    "id": 117,
+    "name": "Family Health Clinic 117",
+    "type": "clinic",
+    "location": [
+      38.7069,
+      -9.1713
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+351-200117",
+    "address": "821 Maple Rd, Baixa, Lisbon, Lisbon, Lisbon, 14329, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "14329"
+  },
+  {
+    "id": 118,
+    "name": "Regional General Hospital 118",
+    "type": "hospital",
+    "location": [
+      41.1579,
+      -8.6391
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+351-200118",
+    "address": "834 Liberty St, Cedofeita, Porto, Porto, Porto, 14366, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "14366"
+  },
+  {
+    "id": 119,
+    "name": "Mobile Care Unit 119",
+    "type": "mobile_clinic",
+    "location": [
+      52.2451,
+      21.0242
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+48-200119",
+    "address": "847 Central Ave, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 14403, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "14403"
+  },
+  {
+    "id": 120,
+    "name": "Volunteer Medical Transport 120",
+    "type": "transport",
+    "location": [
+      50.0955,
+      19.913
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+48-200120",
+    "address": "860 Main St, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 14440, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "14440"
+  },
+  {
+    "id": 121,
+    "name": "Community Pharmacy 121",
+    "type": "pharmacy",
+    "location": [
+      48.1906,
+      16.3638
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+43-200121",
+    "address": "873 Market St, Innere Stadt, Vienna, Vienna, Vienna, 14477, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "14477"
+  },
+  {
+    "id": 122,
+    "name": "Family Health Clinic 122",
+    "type": "clinic",
+    "location": [
+      50.0733,
+      14.4498
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+420-200122",
+    "address": "886 River Rd, Stare Mesto, Prague, Prague, Prague, 14514, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "14514"
+  },
+  {
+    "id": 123,
+    "name": "Regional General Hospital 123",
+    "type": "hospital",
+    "location": [
+      53.363,
+      -6.2923
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+353-200123",
+    "address": "899 Health Ave, Dublin 2, Dublin, Dublin, Leinster, 14551, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "14551"
+  },
+  {
+    "id": 124,
+    "name": "Mobile Care Unit 124",
+    "type": "mobile_clinic",
+    "location": [
+      38.0124,
+      23.7175
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+30-200124",
+    "address": "112 Oak Lane, Syntagma, Athens, Central Athens, Attica, 14588, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "14588"
+  },
+  {
+    "id": 125,
+    "name": "Volunteer Medical Transport 125",
+    "type": "transport",
+    "location": [
+      45.0505,
+      7.6989
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+39-200125",
+    "address": "125 Maple Rd, Centro, Turin, Metropolitan City of Turin, Piedmont, 14625, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "14625"
+  },
+  {
+    "id": 126,
+    "name": "Community Pharmacy 126",
+    "type": "pharmacy",
+    "location": [
+      45.4598,
+      9.158
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200126",
+    "address": "138 Liberty St, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 14662, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "14662"
+  },
+  {
+    "id": 127,
+    "name": "Family Health Clinic 127",
+    "type": "clinic",
+    "location": [
+      44.5059,
+      11.3326
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200127",
+    "address": "151 Central Ave, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 14699, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "14699"
+  },
+  {
+    "id": 128,
+    "name": "Regional General Hospital 128",
+    "type": "hospital",
+    "location": [
+      41.9292,
+      12.5084
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+39-200128",
+    "address": "164 Main St, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 14736, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "14736"
+  },
+  {
+    "id": 129,
+    "name": "Mobile Care Unit 129",
+    "type": "mobile_clinic",
+    "location": [
+      40.8298,
+      14.2361
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+39-200129",
+    "address": "177 Market St, Chiaia, Naples, Metropolitan City of Naples, Campania, 14773, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "14773"
+  },
+  {
+    "id": 130,
+    "name": "Volunteer Medical Transport 130",
+    "type": "transport",
+    "location": [
+      38.1091,
+      13.3515
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+39-200130",
+    "address": "190 River Rd, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 14810, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "14810"
+  },
+  {
+    "id": 131,
+    "name": "Community Pharmacy 131",
+    "type": "pharmacy",
+    "location": [
+      40.4256,
+      -3.6918
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+34-200131",
+    "address": "203 Health Ave, Centro, Madrid, Madrid, Community of Madrid, 14847, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "14847"
+  },
+  {
+    "id": 132,
+    "name": "Family Health Clinic 132",
+    "type": "clinic",
+    "location": [
+      41.4093,
+      2.1414
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+34-200132",
+    "address": "216 Oak Lane, Eixample, Barcelona, Barcelona, Catalonia, 14884, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "14884"
+  },
+  {
+    "id": 133,
+    "name": "Regional General Hospital 133",
+    "type": "hospital",
+    "location": [
+      39.4457,
+      -0.3863
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+34-200133",
+    "address": "229 Maple Rd, Ciutat Vella, Valencia, Valencia, Valencian Community, 14921, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "14921"
+  },
+  {
+    "id": 134,
+    "name": "Mobile Care Unit 134",
+    "type": "mobile_clinic",
+    "location": [
+      37.3803,
+      -5.9725
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+34-200134",
+    "address": "242 Liberty St, Casco Antiguo, Seville, Seville, Andalusia, 14958, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "14958"
+  },
+  {
+    "id": 135,
+    "name": "Volunteer Medical Transport 135",
+    "type": "transport",
+    "location": [
+      41.6554,
+      -0.9211
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+34-200135",
+    "address": "255 Central Ave, Centro, Zaragoza, Zaragoza, Aragon, 14995, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "14995"
+  },
+  {
+    "id": 136,
+    "name": "Community Pharmacy 136",
+    "type": "pharmacy",
+    "location": [
+      48.8786,
+      2.3422
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+33-200136",
+    "address": "268 Main St, 1st arrondissement, Paris, Paris, Ile-de-France, 15032, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "15032"
+  },
+  {
+    "id": 137,
+    "name": "Family Health Clinic 137",
+    "type": "clinic",
+    "location": [
+      45.7376,
+      4.8477
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+33-200137",
+    "address": "281 Market St, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 15069, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "15069"
+  },
+  {
+    "id": 138,
+    "name": "Regional General Hospital 138",
+    "type": "hospital",
+    "location": [
+      43.2855,
+      5.3378
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+33-200138",
+    "address": "294 River Rd, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 15106, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "15106"
+  },
+  {
+    "id": 139,
+    "name": "Mobile Care Unit 139",
+    "type": "mobile_clinic",
+    "location": [
+      50.6336,
+      3.0473
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+33-200139",
+    "address": "307 Health Ave, Centre, Lille, Nord, Hauts-de-France, 15143, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "15143"
+  },
+  {
+    "id": 140,
+    "name": "Volunteer Medical Transport 140",
+    "type": "transport",
+    "location": [
+      52.5398,
+      13.417
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+49-200140",
+    "address": "320 Oak Lane, Mitte, Berlin, Berlin, Berlin, 15180, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "15180"
+  },
+  {
+    "id": 141,
+    "name": "Community Pharmacy 141",
+    "type": "pharmacy",
+    "location": [
+      48.1065,
+      11.55
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+49-200141",
+    "address": "333 Maple Rd, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 15217, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "15217"
+  },
+  {
+    "id": 142,
+    "name": "Family Health Clinic 142",
+    "type": "clinic",
+    "location": [
+      53.5379,
+      9.9837
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+49-200142",
+    "address": "346 Liberty St, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 15254, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "15254"
+  },
+  {
+    "id": 143,
+    "name": "Regional General Hospital 143",
+    "type": "hospital",
+    "location": [
+      50.9397,
+      6.9723
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+49-200143",
+    "address": "359 Central Ave, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 15291, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "15291"
+  },
+  {
+    "id": 144,
+    "name": "Mobile Care Unit 144",
+    "type": "mobile_clinic",
+    "location": [
+      52.3852,
+      4.8721
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+31-200144",
+    "address": "372 Main St, Centrum, Amsterdam, Amsterdam, North Holland, 15328, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "15328"
+  },
+  {
+    "id": 145,
+    "name": "Volunteer Medical Transport 145",
+    "type": "transport",
+    "location": [
+      51.8936,
+      4.4677
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+31-200145",
+    "address": "385 Market St, Stadscentrum, Rotterdam, Rotterdam, South Holland, 15365, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "15365"
+  },
+  {
+    "id": 146,
+    "name": "Community Pharmacy 146",
+    "type": "pharmacy",
+    "location": [
+      50.8349,
+      4.3637
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+32-200146",
+    "address": "398 River Rd, Pentagon, Brussels, Brussels, Brussels-Capital Region, 15402, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "15402"
+  },
+  {
+    "id": 147,
+    "name": "Family Health Clinic 147",
+    "type": "clinic",
+    "location": [
+      51.2194,
+      4.3705
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+32-200147",
+    "address": "411 Health Ave, Historisch Centrum, Antwerp, Antwerp, Flanders, 15439, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "15439"
+  },
+  {
+    "id": 148,
+    "name": "Regional General Hospital 148",
+    "type": "hospital",
+    "location": [
+      38.7377,
+      -9.1493
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+351-200148",
+    "address": "424 Oak Lane, Baixa, Lisbon, Lisbon, Lisbon, 15476, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "15476"
+  },
+  {
+    "id": 149,
+    "name": "Mobile Care Unit 149",
+    "type": "mobile_clinic",
+    "location": [
+      41.1887,
+      -8.6171
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+351-200149",
+    "address": "437 Maple Rd, Cedofeita, Porto, Porto, Porto, 15513, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "15513"
+  },
+  {
+    "id": 150,
+    "name": "Volunteer Medical Transport 150",
+    "type": "transport",
+    "location": [
+      52.2121,
+      20.9802
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+48-200150",
+    "address": "450 Liberty St, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 15550, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "15550"
+  },
+  {
+    "id": 151,
+    "name": "Community Pharmacy 151",
+    "type": "pharmacy",
+    "location": [
+      50.0625,
+      19.935
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+48-200151",
+    "address": "463 Central Ave, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 15587, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "15587"
+  },
+  {
+    "id": 152,
+    "name": "Family Health Clinic 152",
+    "type": "clinic",
+    "location": [
+      48.2214,
+      16.3858
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+43-200152",
+    "address": "476 Main St, Innere Stadt, Vienna, Vienna, Vienna, 15624, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "15624"
+  },
+  {
+    "id": 153,
+    "name": "Regional General Hospital 153",
+    "type": "hospital",
+    "location": [
+      50.1041,
+      14.4058
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+420-200153",
+    "address": "489 Market St, Stare Mesto, Prague, Prague, Prague, 15661, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "15661"
+  },
+  {
+    "id": 154,
+    "name": "Mobile Care Unit 154",
+    "type": "mobile_clinic",
+    "location": [
+      53.33,
+      -6.2703
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+353-200154",
+    "address": "502 River Rd, Dublin 2, Dublin, Dublin, Leinster, 15698, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "15698"
+  },
+  {
+    "id": 155,
+    "name": "Volunteer Medical Transport 155",
+    "type": "transport",
+    "location": [
+      37.9794,
+      23.7395
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+30-200155",
+    "address": "515 Health Ave, Syntagma, Athens, Central Athens, Attica, 15735, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "15735"
+  },
+  {
+    "id": 156,
+    "name": "Community Pharmacy 156",
+    "type": "pharmacy",
+    "location": [
+      45.0813,
+      7.6549
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+39-200156",
+    "address": "528 Oak Lane, Centro, Turin, Metropolitan City of Turin, Piedmont, 15772, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "15772"
+  },
+  {
+    "id": 157,
+    "name": "Family Health Clinic 157",
+    "type": "clinic",
+    "location": [
+      45.4906,
+      9.18
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200157",
+    "address": "541 Maple Rd, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 15809, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "15809"
+  },
+  {
+    "id": 158,
+    "name": "Regional General Hospital 158",
+    "type": "hospital",
+    "location": [
+      44.4729,
+      11.3546
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+39-200158",
+    "address": "554 Liberty St, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 15846, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "15846"
+  },
+  {
+    "id": 159,
+    "name": "Mobile Care Unit 159",
+    "type": "mobile_clinic",
+    "location": [
+      41.8962,
+      12.4644
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+39-200159",
+    "address": "567 Central Ave, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 15883, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "15883"
+  },
+  {
+    "id": 160,
+    "name": "Volunteer Medical Transport 160",
+    "type": "transport",
+    "location": [
+      40.8606,
+      14.2581
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+39-200160",
+    "address": "580 Main St, Chiaia, Naples, Metropolitan City of Naples, Campania, 15920, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "15920"
+  },
+  {
+    "id": 161,
+    "name": "Community Pharmacy 161",
+    "type": "pharmacy",
+    "location": [
+      38.1399,
+      13.3735
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+39-200161",
+    "address": "593 Market St, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 15957, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "15957"
+  },
+  {
+    "id": 162,
+    "name": "Family Health Clinic 162",
+    "type": "clinic",
+    "location": [
+      40.3926,
+      -3.7358
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+34-200162",
+    "address": "606 River Rd, Centro, Madrid, Madrid, Community of Madrid, 15994, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "15994"
+  },
+  {
+    "id": 163,
+    "name": "Regional General Hospital 163",
+    "type": "hospital",
+    "location": [
+      41.3763,
+      2.1634
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+34-200163",
+    "address": "619 Health Ave, Eixample, Barcelona, Barcelona, Catalonia, 16031, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "16031"
+  },
+  {
+    "id": 164,
+    "name": "Mobile Care Unit 164",
+    "type": "mobile_clinic",
+    "location": [
+      39.4765,
+      -0.3643
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+34-200164",
+    "address": "632 Oak Lane, Ciutat Vella, Valencia, Valencia, Valencian Community, 16068, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "16068"
+  },
+  {
+    "id": 165,
+    "name": "Volunteer Medical Transport 165",
+    "type": "transport",
+    "location": [
+      37.4111,
+      -6.0165
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+34-200165",
+    "address": "645 Maple Rd, Casco Antiguo, Seville, Seville, Andalusia, 16105, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "16105"
+  },
+  {
+    "id": 166,
+    "name": "Community Pharmacy 166",
+    "type": "pharmacy",
+    "location": [
+      41.6224,
+      -0.8991
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+34-200166",
+    "address": "658 Liberty St, Centro, Zaragoza, Zaragoza, Aragon, 16142, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "16142"
+  },
+  {
+    "id": 167,
+    "name": "Family Health Clinic 167",
+    "type": "clinic",
+    "location": [
+      48.8456,
+      2.3642
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+33-200167",
+    "address": "671 Central Ave, 1st arrondissement, Paris, Paris, Ile-de-France, 16179, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "16179"
+  },
+  {
+    "id": 168,
+    "name": "Regional General Hospital 168",
+    "type": "hospital",
+    "location": [
+      45.7684,
+      4.8037
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+33-200168",
+    "address": "684 Main St, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 16216, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "16216"
+  },
+  {
+    "id": 169,
+    "name": "Mobile Care Unit 169",
+    "type": "mobile_clinic",
+    "location": [
+      43.3163,
+      5.3598
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+33-200169",
+    "address": "697 Market St, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 16253, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "16253"
+  },
+  {
+    "id": 170,
+    "name": "Volunteer Medical Transport 170",
+    "type": "transport",
+    "location": [
+      50.6006,
+      3.0693
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+33-200170",
+    "address": "710 River Rd, Centre, Lille, Nord, Hauts-de-France, 16290, France",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "postal_code": "16290"
+  },
+  {
+    "id": 171,
+    "name": "Community Pharmacy 171",
+    "type": "pharmacy",
+    "location": [
+      52.5068,
+      13.373
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+49-200171",
+    "address": "723 Health Ave, Mitte, Berlin, Berlin, Berlin, 16327, Germany",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "postal_code": "16327"
+  },
+  {
+    "id": 172,
+    "name": "Family Health Clinic 172",
+    "type": "clinic",
+    "location": [
+      48.1373,
+      11.572
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+49-200172",
+    "address": "736 Oak Lane, Altstadt-Lehel, Munich, Upper Bavaria, Bavaria, 16364, Germany",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "postal_code": "16364"
+  },
+  {
+    "id": 173,
+    "name": "Regional General Hospital 173",
+    "type": "hospital",
+    "location": [
+      53.5687,
+      10.0057
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+49-200173",
+    "address": "749 Maple Rd, Hamburg-Mitte, Hamburg, Hamburg, Hamburg, 16401, Germany",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "postal_code": "16401"
+  },
+  {
+    "id": 174,
+    "name": "Mobile Care Unit 174",
+    "type": "mobile_clinic",
+    "location": [
+      50.9067,
+      6.9283
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+49-200174",
+    "address": "762 Liberty St, Innenstadt, Cologne, Cologne, North Rhine-Westphalia, 16438, Germany",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "postal_code": "16438"
+  },
+  {
+    "id": 175,
+    "name": "Volunteer Medical Transport 175",
+    "type": "transport",
+    "location": [
+      52.3522,
+      4.8941
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+31-200175",
+    "address": "775 Central Ave, Centrum, Amsterdam, Amsterdam, North Holland, 16475, Netherlands",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "postal_code": "16475"
+  },
+  {
+    "id": 176,
+    "name": "Community Pharmacy 176",
+    "type": "pharmacy",
+    "location": [
+      51.9244,
+      4.4897
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+31-200176",
+    "address": "788 Main St, Stadscentrum, Rotterdam, Rotterdam, South Holland, 16512, Netherlands",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "postal_code": "16512"
+  },
+  {
+    "id": 177,
+    "name": "Family Health Clinic 177",
+    "type": "clinic",
+    "location": [
+      50.8657,
+      4.3197
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+32-200177",
+    "address": "801 Market St, Pentagon, Brussels, Brussels, Brussels-Capital Region, 16549, Belgium",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "postal_code": "16549"
+  },
+  {
+    "id": 178,
+    "name": "Regional General Hospital 178",
+    "type": "hospital",
+    "location": [
+      51.2502,
+      4.3925
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+32-200178",
+    "address": "814 River Rd, Historisch Centrum, Antwerp, Antwerp, Flanders, 16586, Belgium",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "postal_code": "16586"
+  },
+  {
+    "id": 179,
+    "name": "Mobile Care Unit 179",
+    "type": "mobile_clinic",
+    "location": [
+      38.7047,
+      -9.1273
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+351-200179",
+    "address": "827 Health Ave, Baixa, Lisbon, Lisbon, Lisbon, 16623, Portugal",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "postal_code": "16623"
+  },
+  {
+    "id": 180,
+    "name": "Volunteer Medical Transport 180",
+    "type": "transport",
+    "location": [
+      41.1557,
+      -8.6611
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+351-200180",
+    "address": "840 Oak Lane, Cedofeita, Porto, Porto, Porto, 16660, Portugal",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "postal_code": "16660"
+  },
+  {
+    "id": 181,
+    "name": "Community Pharmacy 181",
+    "type": "pharmacy",
+    "location": [
+      52.2429,
+      21.0022
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+48-200181",
+    "address": "853 Maple Rd, Srodmiescie, Warsaw, Warsaw, Masovian Voivodeship, 16697, Poland",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "postal_code": "16697"
+  },
+  {
+    "id": 182,
+    "name": "Family Health Clinic 182",
+    "type": "clinic",
+    "location": [
+      50.0933,
+      19.957
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+48-200182",
+    "address": "866 Liberty St, Stare Miasto, Krakow, Krakow, Lesser Poland Voivodeship, 16734, Poland",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "postal_code": "16734"
+  },
+  {
+    "id": 183,
+    "name": "Regional General Hospital 183",
+    "type": "hospital",
+    "location": [
+      48.1884,
+      16.3418
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+43-200183",
+    "address": "879 Central Ave, Innere Stadt, Vienna, Vienna, Vienna, 16771, Austria",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "postal_code": "16771"
+  },
+  {
+    "id": 184,
+    "name": "Mobile Care Unit 184",
+    "type": "mobile_clinic",
+    "location": [
+      50.0711,
+      14.4278
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+420-200184",
+    "address": "892 Main St, Stare Mesto, Prague, Prague, Prague, 16808, Czechia",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "postal_code": "16808"
+  },
+  {
+    "id": 185,
+    "name": "Volunteer Medical Transport 185",
+    "type": "transport",
+    "location": [
+      53.3608,
+      -6.2483
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+353-200185",
+    "address": "105 Market St, Dublin 2, Dublin, Dublin, Leinster, 16845, Ireland",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "postal_code": "16845"
+  },
+  {
+    "id": 186,
+    "name": "Community Pharmacy 186",
+    "type": "pharmacy",
+    "location": [
+      38.0102,
+      23.6955
+    ],
+    "status": "Open",
+    "stock": "General prescriptions available",
+    "phone": "+30-200186",
+    "address": "118 River Rd, Syntagma, Athens, Central Athens, Attica, 16882, Greece",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "postal_code": "16882"
+  },
+  {
+    "id": 187,
+    "name": "Family Health Clinic 187",
+    "type": "clinic",
+    "location": [
+      45.0483,
+      7.6769
+    ],
+    "status": "By Appointment",
+    "stock": "Vaccination services available",
+    "phone": "+39-200187",
+    "address": "131 Health Ave, Centro, Turin, Metropolitan City of Turin, Piedmont, 16919, Italy",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "postal_code": "16919"
+  },
+  {
+    "id": 188,
+    "name": "Regional General Hospital 188",
+    "type": "hospital",
+    "location": [
+      45.4576,
+      9.202
+    ],
+    "status": "Busy",
+    "stock": "Emergency department active",
+    "phone": "+39-200188",
+    "address": "144 Oak Lane, Centro Storico, Milan, Metropolitan City of Milan, Lombardy, 16956, Italy",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "postal_code": "16956"
+  },
+  {
+    "id": 189,
+    "name": "Mobile Care Unit 189",
+    "type": "mobile_clinic",
+    "location": [
+      44.5037,
+      11.3106
+    ],
+    "status": "On Route",
+    "stock": "Basic diagnostics and referral support",
+    "phone": "+39-200189",
+    "address": "157 Maple Rd, Santo Stefano, Bologna, Metropolitan City of Bologna, Emilia-Romagna, 16993, Italy",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "postal_code": "16993"
+  },
+  {
+    "id": 190,
+    "name": "Volunteer Medical Transport 190",
+    "type": "transport",
+    "location": [
+      41.927,
+      12.4864
+    ],
+    "status": "Limited Capacity",
+    "stock": "Patient transport support",
+    "phone": "+39-200190",
+    "address": "170 Liberty St, Centro Storico, Rome, Metropolitan City of Rome, Lazio, 17030, Italy",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "postal_code": "17030"
+  },
+  {
+    "id": 191,
+    "name": "Community Pharmacy 191",
+    "type": "pharmacy",
+    "location": [
+      40.8276,
+      14.2801
+    ],
+    "status": "Limited Hours",
+    "stock": "Flu medicine available",
+    "phone": "+39-200191",
+    "address": "183 Central Ave, Chiaia, Naples, Metropolitan City of Naples, Campania, 17067, Italy",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "postal_code": "17067"
+  },
+  {
+    "id": 192,
+    "name": "Family Health Clinic 192",
+    "type": "clinic",
+    "location": [
+      38.1069,
+      13.3295
+    ],
+    "status": "Open",
+    "stock": "Nursing and chronic care support",
+    "phone": "+39-200192",
+    "address": "196 Main St, Politeama, Palermo, Metropolitan City of Palermo, Sicily, 17104, Italy",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "postal_code": "17104"
+  },
+  {
+    "id": 193,
+    "name": "Regional General Hospital 193",
+    "type": "hospital",
+    "location": [
+      40.4234,
+      -3.7138
+    ],
+    "status": "Open",
+    "stock": "Emergency + imaging services",
+    "phone": "+34-200193",
+    "address": "209 Market St, Centro, Madrid, Madrid, Community of Madrid, 17141, Spain",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "postal_code": "17141"
+  },
+  {
+    "id": 194,
+    "name": "Mobile Care Unit 194",
+    "type": "mobile_clinic",
+    "location": [
+      41.4071,
+      2.1854
+    ],
+    "status": "Scheduled",
+    "stock": "Primary care outreach",
+    "phone": "+34-200194",
+    "address": "222 River Rd, Eixample, Barcelona, Barcelona, Catalonia, 17178, Spain",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "postal_code": "17178"
+  },
+  {
+    "id": 195,
+    "name": "Volunteer Medical Transport 195",
+    "type": "transport",
+    "location": [
+      39.4435,
+      -0.4083
+    ],
+    "status": "Available",
+    "stock": "Community medical ride support",
+    "phone": "+34-200195",
+    "address": "235 Health Ave, Ciutat Vella, Valencia, Valencia, Valencian Community, 17215, Spain",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "postal_code": "17215"
+  },
+  {
+    "id": 196,
+    "name": "Community Pharmacy 196",
+    "type": "pharmacy",
+    "location": [
+      37.3781,
+      -5.9945
+    ],
+    "status": "Open",
+    "stock": "Limited antibiotics stock",
+    "phone": "+34-200196",
+    "address": "248 Oak Lane, Casco Antiguo, Seville, Seville, Andalusia, 17252, Spain",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "postal_code": "17252"
+  },
+  {
+    "id": 197,
+    "name": "Family Health Clinic 197",
+    "type": "clinic",
+    "location": [
+      41.6532,
+      -0.8771
+    ],
+    "status": "Open",
+    "stock": "Primary care and checkups",
+    "phone": "+34-200197",
+    "address": "261 Maple Rd, Centro, Zaragoza, Zaragoza, Aragon, 17289, Spain",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "postal_code": "17289"
+  },
+  {
+    "id": 198,
+    "name": "Regional General Hospital 198",
+    "type": "hospital",
+    "location": [
+      48.8764,
+      2.3202
+    ],
+    "status": "Open",
+    "stock": "24/7 urgent care",
+    "phone": "+33-200198",
+    "address": "274 Liberty St, 1st arrondissement, Paris, Paris, Ile-de-France, 17326, France",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "postal_code": "17326"
+  },
+  {
+    "id": 199,
+    "name": "Mobile Care Unit 199",
+    "type": "mobile_clinic",
+    "location": [
+      45.7354,
+      4.8257
+    ],
+    "status": "Available Today",
+    "stock": "Routine outreach service",
+    "phone": "+33-200199",
+    "address": "287 Central Ave, Presqu'ile, Lyon, Rhone, Auvergne-Rhone-Alpes, 17363, France",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "postal_code": "17363"
+  },
+  {
+    "id": 200,
+    "name": "Volunteer Medical Transport 200",
+    "type": "transport",
+    "location": [
+      43.2833,
+      5.3818
+    ],
+    "status": "Available",
+    "stock": "Volunteer driver network",
+    "phone": "+33-200200",
+    "address": "300 Main St, Vieux-Port, Marseille, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, 17400, France",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "postal_code": "17400"
   }
 ]

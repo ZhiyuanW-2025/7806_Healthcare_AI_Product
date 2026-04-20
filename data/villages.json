@@ -1,6 +1,312 @@
 [
-  {"name": "Village A", "lat": 45.123, "lon": 7.456},
-  {"name": "Village B", "lat": 45.205, "lon": 7.533},
-  {"name": "Village C", "lat": 45.062, "lon": 7.612},
-  {"name": "Village D", "lat": 45.178, "lon": 7.381}
+  {
+    "name": "Turin, Piedmont (Italy)",
+    "country": "Italy",
+    "state_province": "Piedmont",
+    "city": "Turin",
+    "county": "Metropolitan City of Turin",
+    "locality": "Centro",
+    "lat": 45.0703,
+    "lon": 7.6869
+  },
+  {
+    "name": "Milan, Lombardy (Italy)",
+    "country": "Italy",
+    "state_province": "Lombardy",
+    "city": "Milan",
+    "county": "Metropolitan City of Milan",
+    "locality": "Centro Storico",
+    "lat": 45.4642,
+    "lon": 9.19
+  },
+  {
+    "name": "Bologna, Emilia-Romagna (Italy)",
+    "country": "Italy",
+    "state_province": "Emilia-Romagna",
+    "city": "Bologna",
+    "county": "Metropolitan City of Bologna",
+    "locality": "Santo Stefano",
+    "lat": 44.4949,
+    "lon": 11.3426
+  },
+  {
+    "name": "Rome, Lazio (Italy)",
+    "country": "Italy",
+    "state_province": "Lazio",
+    "city": "Rome",
+    "county": "Metropolitan City of Rome",
+    "locality": "Centro Storico",
+    "lat": 41.9028,
+    "lon": 12.4964
+  },
+  {
+    "name": "Naples, Campania (Italy)",
+    "country": "Italy",
+    "state_province": "Campania",
+    "city": "Naples",
+    "county": "Metropolitan City of Naples",
+    "locality": "Chiaia",
+    "lat": 40.8518,
+    "lon": 14.2681
+  },
+  {
+    "name": "Palermo, Sicily (Italy)",
+    "country": "Italy",
+    "state_province": "Sicily",
+    "city": "Palermo",
+    "county": "Metropolitan City of Palermo",
+    "locality": "Politeama",
+    "lat": 38.1157,
+    "lon": 13.3615
+  },
+  {
+    "name": "Madrid, Community of Madrid (Spain)",
+    "country": "Spain",
+    "state_province": "Community of Madrid",
+    "city": "Madrid",
+    "county": "Madrid",
+    "locality": "Centro",
+    "lat": 40.4168,
+    "lon": -3.7038
+  },
+  {
+    "name": "Barcelona, Catalonia (Spain)",
+    "country": "Spain",
+    "state_province": "Catalonia",
+    "city": "Barcelona",
+    "county": "Barcelona",
+    "locality": "Eixample",
+    "lat": 41.3851,
+    "lon": 2.1734
+  },
+  {
+    "name": "Valencia, Valencian Community (Spain)",
+    "country": "Spain",
+    "state_province": "Valencian Community",
+    "city": "Valencia",
+    "county": "Valencia",
+    "locality": "Ciutat Vella",
+    "lat": 39.4699,
+    "lon": -0.3763
+  },
+  {
+    "name": "Seville, Andalusia (Spain)",
+    "country": "Spain",
+    "state_province": "Andalusia",
+    "city": "Seville",
+    "county": "Seville",
+    "locality": "Casco Antiguo",
+    "lat": 37.3891,
+    "lon": -5.9845
+  },
+  {
+    "name": "Zaragoza, Aragon (Spain)",
+    "country": "Spain",
+    "state_province": "Aragon",
+    "city": "Zaragoza",
+    "county": "Zaragoza",
+    "locality": "Centro",
+    "lat": 41.6488,
+    "lon": -0.8891
+  },
+  {
+    "name": "Paris, Ile-de-France (France)",
+    "country": "France",
+    "state_province": "Ile-de-France",
+    "city": "Paris",
+    "county": "Paris",
+    "locality": "1st arrondissement",
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  {
+    "name": "Lyon, Auvergne-Rhone-Alpes (France)",
+    "country": "France",
+    "state_province": "Auvergne-Rhone-Alpes",
+    "city": "Lyon",
+    "county": "Rhone",
+    "locality": "Presqu'ile",
+    "lat": 45.764,
+    "lon": 4.8357
+  },
+  {
+    "name": "Marseille, Provence-Alpes-Cote d'Azur (France)",
+    "country": "France",
+    "state_province": "Provence-Alpes-Cote d'Azur",
+    "city": "Marseille",
+    "county": "Bouches-du-Rhone",
+    "locality": "Vieux-Port",
+    "lat": 43.2965,
+    "lon": 5.3698
+  },
+  {
+    "name": "Lille, Hauts-de-France (France)",
+    "country": "France",
+    "state_province": "Hauts-de-France",
+    "city": "Lille",
+    "county": "Nord",
+    "locality": "Centre",
+    "lat": 50.6292,
+    "lon": 3.0573
+  },
+  {
+    "name": "Berlin, Berlin (Germany)",
+    "country": "Germany",
+    "state_province": "Berlin",
+    "city": "Berlin",
+    "county": "Berlin",
+    "locality": "Mitte",
+    "lat": 52.52,
+    "lon": 13.405
+  },
+  {
+    "name": "Munich, Bavaria (Germany)",
+    "country": "Germany",
+    "state_province": "Bavaria",
+    "city": "Munich",
+    "county": "Upper Bavaria",
+    "locality": "Altstadt-Lehel",
+    "lat": 48.1351,
+    "lon": 11.582
+  },
+  {
+    "name": "Hamburg, Hamburg (Germany)",
+    "country": "Germany",
+    "state_province": "Hamburg",
+    "city": "Hamburg",
+    "county": "Hamburg",
+    "locality": "Hamburg-Mitte",
+    "lat": 53.5511,
+    "lon": 9.9937
+  },
+  {
+    "name": "Cologne, North Rhine-Westphalia (Germany)",
+    "country": "Germany",
+    "state_province": "North Rhine-Westphalia",
+    "city": "Cologne",
+    "county": "Cologne",
+    "locality": "Innenstadt",
+    "lat": 50.9375,
+    "lon": 6.9603
+  },
+  {
+    "name": "Amsterdam, North Holland (Netherlands)",
+    "country": "Netherlands",
+    "state_province": "North Holland",
+    "city": "Amsterdam",
+    "county": "Amsterdam",
+    "locality": "Centrum",
+    "lat": 52.3676,
+    "lon": 4.9041
+  },
+  {
+    "name": "Rotterdam, South Holland (Netherlands)",
+    "country": "Netherlands",
+    "state_province": "South Holland",
+    "city": "Rotterdam",
+    "county": "Rotterdam",
+    "locality": "Stadscentrum",
+    "lat": 51.9244,
+    "lon": 4.4777
+  },
+  {
+    "name": "Brussels, Brussels-Capital (Belgium)",
+    "country": "Belgium",
+    "state_province": "Brussels-Capital Region",
+    "city": "Brussels",
+    "county": "Brussels",
+    "locality": "Pentagon",
+    "lat": 50.8503,
+    "lon": 4.3517
+  },
+  {
+    "name": "Antwerp, Flanders (Belgium)",
+    "country": "Belgium",
+    "state_province": "Flanders",
+    "city": "Antwerp",
+    "county": "Antwerp",
+    "locality": "Historisch Centrum",
+    "lat": 51.2194,
+    "lon": 4.4025
+  },
+  {
+    "name": "Lisbon, Lisbon District (Portugal)",
+    "country": "Portugal",
+    "state_province": "Lisbon",
+    "city": "Lisbon",
+    "county": "Lisbon",
+    "locality": "Baixa",
+    "lat": 38.7223,
+    "lon": -9.1393
+  },
+  {
+    "name": "Porto, Porto District (Portugal)",
+    "country": "Portugal",
+    "state_province": "Porto",
+    "city": "Porto",
+    "county": "Porto",
+    "locality": "Cedofeita",
+    "lat": 41.1579,
+    "lon": -8.6291
+  },
+  {
+    "name": "Warsaw, Masovian (Poland)",
+    "country": "Poland",
+    "state_province": "Masovian Voivodeship",
+    "city": "Warsaw",
+    "county": "Warsaw",
+    "locality": "Srodmiescie",
+    "lat": 52.2297,
+    "lon": 21.0122
+  },
+  {
+    "name": "Krakow, Lesser Poland (Poland)",
+    "country": "Poland",
+    "state_province": "Lesser Poland Voivodeship",
+    "city": "Krakow",
+    "county": "Krakow",
+    "locality": "Stare Miasto",
+    "lat": 50.0647,
+    "lon": 19.945
+  },
+  {
+    "name": "Vienna, Vienna (Austria)",
+    "country": "Austria",
+    "state_province": "Vienna",
+    "city": "Vienna",
+    "county": "Vienna",
+    "locality": "Innere Stadt",
+    "lat": 48.2082,
+    "lon": 16.3738
+  },
+  {
+    "name": "Prague, Prague (Czechia)",
+    "country": "Czechia",
+    "state_province": "Prague",
+    "city": "Prague",
+    "county": "Prague",
+    "locality": "Stare Mesto",
+    "lat": 50.0755,
+    "lon": 14.4378
+  },
+  {
+    "name": "Dublin, Leinster (Ireland)",
+    "country": "Ireland",
+    "state_province": "Leinster",
+    "city": "Dublin",
+    "county": "Dublin",
+    "locality": "Dublin 2",
+    "lat": 53.3498,
+    "lon": -6.2603
+  },
+  {
+    "name": "Athens, Attica (Greece)",
+    "country": "Greece",
+    "state_province": "Attica",
+    "city": "Athens",
+    "county": "Central Athens",
+    "locality": "Syntagma",
+    "lat": 37.9838,
+    "lon": 23.7275
+  }
 ]
